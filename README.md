@@ -1,2 +1,1 @@
-# firedragon.github.io
-A repository for the code refactor exercise
+A repository for the code refactor project
