@@ -26,8 +26,8 @@ Providing web accessibility is the main motivation behind this project, ensuring
 ```
 
 ## Credits and References
-w3schools.com
-medium.com
+* www.w3schools.com
+* www.medium.com
 
 - - -
 
