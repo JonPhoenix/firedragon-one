@@ -1,24 +1,26 @@
 <!DOCTYPE html>
+<!-- Defining laguage english united states -->
 <html lang="en-us">
 
+<!-- Head containing a concise and descriptive title, a favicon image, and the linked CSS file -->
 <head>
     <meta charset="UTF-8" />
     <!-- Using a custom friendly webpage title -->
     <title>Horiseon Marketing Agency</title>
-    <!-- Linking CSS -->
-    <link rel="stylesheet" href="css/style.css">
     <!-- Adding a favicon -->
     <link rel="icon" type="image/png" href="images/horiseon-icon.png" alt="Horiseon website icon">
+    <!-- Linking CSS -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <!-- Using <header></header> tags to contain the wordmark and bookmark links-->
+    <!-- Using <header></header> tags to contain the wordmark and bookmark links -->
     <header class="header">
         <!-- Keeping the wordmark design using <h1></h1> tags from the previous html version -->
-        <!-- Refactoring "seo" using css id for a more accurate css styling-->
+        <!-- Refactoring "seo" using css id for a more accurate css styling -->
         <!-- Refactoring the linked css sheetstyle file accordingly -->
         <h1>Hori<span id="seo">seo</span>n</h1>
-        <!-- Using <nav></nav> tags to contain the navigation bookmark links-->
+        <!-- Using <nav></nav> tags to contain the navigation bookmark links -->
         <!-- Refactoring the linked css file accordingly -->
         <nav>
             <ul>
@@ -34,49 +36,50 @@
             </ul>
         </nav>
     </header>
-    <!-- Using <section></section> tags to define the main image section -->
-    <!-- Refactoring "hero" using css id for a more accurate css styling-->
-    <!-- Implementing <style></style> tags to place the background image -->
+    <!-- Using <section></section> tags to define the background image section -->
+    <!-- Refactoring "hero" using css id for a more accurate css styling -->
+    <!-- Implementing css style to place the background image in the html source code -->
     <!-- Adding an alt attribute to the background image for accesiblity purposes -->
     <!-- Refactoring the linked css file accordingly -->
     <section id="hero" style="background-image: url('images/digital-marketing-meeting.jpg'); alt:('Our team having a digital marketing meeting');"></section>
     <!-- Using <section></section> tags to define the best practices section and its content -->
     <section class="content">
-        <!-- Keeping <div></div> tags from the previous html version for this section divisions -->
-        <!-- Adding the missing id attribute for the bookmark link -->
-        <!-- Keeping css class from the previous html version -->
+        <!-- Using <article></article> tags to build independent self-contained blocks of content for this section -->
+        <!-- Adding the missing id attribute to link the bookmark (#) for the top "article" -->
+        <!-- Deleting the css class and refactoring the CSS file accordingly -->
         <!-- Adding an alt attribute to the image for accesiblity purposes -->
-        <div id="search-engine-optimization" class="search-engine-optimization">
+        <!-- Consolidating all h2 selectors on the css file -->
+        <article id="search-engine-optimization">
             <img src="images/search-engine-optimization.jpg" class="float-left" alt="Our search engine optimization process"/>
             <h2>Search Engine Optimization</h2>
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
-        </div>
-        <!-- Keeping the id attribute for the bookmark link and the css class for the linked stylesheet -->
-        <div id="online-reputation-management" class="online-reputation-management">
+        </article>
+        <!-- Deleting the css class and refactoring the CSS file accordingly -->
+        <article id="online-reputation-management">
             <!-- Adding an alt attribute to the image for accesiblity purposes-->
             <img src="images/online-reputation-management.jpg" class="float-right" alt="Our online reputation management service" />
             <h2>Online Reputation Management</h2>
             <p>
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
             </p>
-        </div>
-        <!-- Keeping the id attribute for the bookmark link and the css class for the linked stylesheet -->
-        <div id="social-media-marketing" class="social-media-marketing">
+        </article>
+        <!-- Deleting the css class and refactoring the CSS file accordingly -->
+        <article id="social-media-marketing">
             <!-- Adding an alt attribute to the image for accesiblity purposes -->
             <img src="images/social-media-marketing.jpg" class="float-left" alt="Our social media marketing methodology" />
             <h2>Social Media Marketing</h2>
             <p>
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
             </p>
-        </div>
+        </article>
     </section>
     <!-- Using <aside></aside> tags to define the benefits sidebar and its content -->
     <!-- Refactoring "benefits" using css id for a more accurate css styling -->
-    <!-- Refactoring the linked css file accordingly -->
+    <!-- Consolidating all h3 selectors on the css file -->
     <aside id="benefits">
-        <!-- Keeping <div></div> tags from the previous html version for the sidebar content -->
+        <!-- Keeping <div></div> tags from the previous version to organize the benefits on the sidebar -->
         <div class="benefit-lead">
             <h3>Lead Generation</h3>
             <!-- Adding an alt attribute to the icon image for accesiblity purposes -->
@@ -105,8 +108,11 @@
     </aside>
     <!-- Using <footer></footer> tags to define the footer for the homepage -->
     <footer class="footer">
-        <h2>Made with ❤️️ by Horiseon</h2>
-        <p>
+        <!-- Including a sentence crediting the author + css id to simplify the CSS file -->
+        <!-- Consolidating all h2 selectors on the css file -->
+        <h2 id="made-by-horiseon">Made with ❤️️ by Horiseon</h2>
+        <!-- Including a copyright sentence + inline css to preserve the appearance -->
+        <p style="line-height: 3px;">
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
     </footer>
