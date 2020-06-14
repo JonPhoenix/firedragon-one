@@ -2,7 +2,7 @@
 
 Starting with an existing source of code, this new version of improved code seeks to meet the industry standards in accessibility, search engines optimization, and new technology implementation.
 
-Deployment url: https://jonphoenix.github.io/firedragon-one/
+Project deployment: https://jonphoenix.github.io/firedragon-one
 
 
 ## Ensuring Accessibility
