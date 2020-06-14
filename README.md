@@ -25,7 +25,7 @@ Providing web accessibility is the main motivation behind this project, ensuring
 * CSS semantic structure coordinated with HTML elements
 ```
 
-## Credits and References
+## References
 * www.w3schools.com
 * www.medium.com
 
