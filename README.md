@@ -12,17 +12,16 @@ Providing web accessibility is the main motivation behind this project, ensuring
 ## Project Features
 
 ```
-* The webpage meets accessibility standards
+* Webpage with accessibility standards
 * A concise and descriptive new title
 * All links functioning correctly
-* Detailed comments on element and sections
-* Detailed HTML elements semantic in the source code
-* A logical HTML structure and accessible alt attributes
-* Heading attributes in sequential order
+* Detailed comments on HTML elements and sections
+* Detailed HTML semantic in the source code
+* A logical HTML structure with accessible alt attributes
 
-* A cleaner and more efficient CSS code
+* A more efficient and cleaner CSS code
 * Consolidated CSS selectors and properties
-* CSS semantic structure coordinated with HTML elements
+* CSS semantic structure coordinated with the HTML elements
 ```
 
 ## References
